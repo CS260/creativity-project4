@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ron Swanson Quotes</title>
+  <title>Chuck Norris Quotes</title>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   <script src="javascripts/app.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-<!--   <script src="https://use.typekit.net/mqi5djg.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
-
   <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat');
     @import url('https://fonts.googleapis.com/css?family=Bungee');
     @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+    @import url('https://fonts.googleapis.com/css?family=Bangers');
   </style>
 
   <meta charset="utf-8">
 </head>
 
-<body ng-app="app">
-<!-- <body ng-app="app" ng-controller="ronController">
+<body ng-app="app" ng-controller='mainCtrl'>
+
 
   <div id="content">
     <header id="top-header">
-      <h1 id="title">Ron Swanson Says</h1>
+      <h1 id="title">Chuck Norris Facts</h1>
     </header>
     <div id="quote">
-      <p>"{{quote}}"</p>
+      <p>"{{chuckNorrisJokes}}"</p>
     </div>
-    <a href="#" class="myButton" ng-click="getNewQuote()">Say Something Else:</a>
-    <img id="ronny" class="animated fadeInRight" src="http://s3.us-east-2.amazonaws.com/ferrelli/ronny+boy.png" alt="Ron's face">
-  </div> -->
+    <!-- <a href="#" class="myButton" ng-click="getNewQuote()">Say Something Else:</a> -->
+    <img ng-click="getNewQuote()" id="ronny" class="animated fadeInRight" src="https://s3.us-east-2.amazonaws.com/cs260-khacking/Misc/chuck+norris+machine+guns.png" alt="Ron's face">
+  </div>
+
+  
 </body>
 
-<!--   <script src="app.js"></script>
- -->  <!-- <script src="service.js"></script> -->
 </html>

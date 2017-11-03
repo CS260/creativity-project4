@@ -4,15 +4,16 @@
 }
 
 body {
-  background-color: #ff6a29;
+  background-color: #a3d3e2;
 }
 
 #title {
-  font-family: 'Bungee Shade', cursive;
-    font-size: 70px;
+ /* font-family: 'Bungee Shade', cursive;*/
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
     text-transform: uppercase;
     float: left;
-    padding-left: 60px;
+    padding-left: 80px;
     padding-top: 25px;
 }
 
@@ -36,7 +37,13 @@ body {
   display: flex;
   align-items: flex-start;
   max-width:40%;
+  margin-top: 50px;
 
+}
+
+#ronny:hover{
+  
+  cursor: pointer;
 }
 
 #quote p {

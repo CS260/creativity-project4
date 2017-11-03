@@ -61,3 +61,90 @@ function mainCtrl ($scope, pokemonFetcher, $http) {
     });
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var app = window.angular.module('app', []);
+
+// app.factory('sleepFetcher', sleepFetcher)
+// app.controller('mainCtrl', mainCtrl)
+
+// function sleepFetcher ($http) {
+//   return {
+//     // tryit: function() {
+//     //   var politics = "/ronjokes";
+//     //   return $http
+//     //     .get(politics)
+//     //     .then(function (resp) {
+//     //       console.log("Get Worked");
+//     //       console.log(resp.data);
+//     //       return resp.data
+//     //     })
+//     // }
+
+//     tryit: function() {
+//       var politics = "/ronjokes";
+//       return $http
+//         .get(politics)
+//         .then(function (resp) {
+//           console.log("Get Worked");
+//           console.log(resp.data);
+//           return resp.data
+//         })
+    
+//       }
+
+//   }
+// }
+
+
+
+
+// function mainCtrl ($scope, sleepFetcher, $http) {
+
+//   $scope.politics = [];
+
+//   // $scope.test = 'Ron controller is working';
+//   // $scope.getNewQuote = function(){
+//   //   $http.get(baseUrl).success(function(data){
+//   //     console.log(data[0]);
+//   //     $scope.quote = data[0];
+//   //   })
+//   // }
+//   // ronService.getQuote().then(function(response){
+//   //   console.log(response.data[0]);
+//   //   $scope.quote = response.data[0];
+//   // })
+
+
+//   // sleepFetcher.tryit()
+//   //   .then(function (data) {
+//   //     console.log("Dad Joke tryit");
+//   //     console.log(data);
+//   //     $scope.politics = data;
+//   //   });
+
+//   sleepFetcher.tryit()
+//     .then(function (data) {
+//       console.log("tryit");
+//       console.log(data);
+//       $scope.politics = data;
+//     });
+// }
+
+
+
+

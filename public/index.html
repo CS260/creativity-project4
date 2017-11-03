@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-<script src="javascripts/app.js"></script>
-<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <title>Ron Swanson Quotes</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="javascripts/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!--   <script src="https://use.typekit.net/mqi5djg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    @import url('https://fonts.googleapis.com/css?family=Bungee');
+    @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+  </style>
+
   <meta charset="utf-8">
-  <title>Node api tutorial</title>
 </head>
-<body>
 
+<body ng-app="app">
+<!-- <body ng-app="app" ng-controller="ronController">
 
-
-  <div id='app' ng-app='app' ng-controller='mainCtrl'>
-
-
-    <h1> Enter A New Poki</h1>
-    <form id="newPoki" ng-submit="addPoki()">
-      Name: <input type="text" ng-model="Name" value=""><br>
-      Url: <input type="url" ng-model="Url" value=""><br>
-      <input type="submit" value="Submit">
-    </form>
-
-    <div ng-if='!pokemon.length' class='no-pokemon center stretch'>
-      <h1 class='h1'>
-        Set up your endpoint at `/pokemon` to get this view working
-      </h1>
+  <div id="content">
+    <header id="top-header">
+      <h1 id="title">Ron Swanson Says</h1>
+    </header>
+    <div id="quote">
+      <p>"{{quote}}"</p>
     </div>
-
-    <ul ng-if='pokemon.length' class='list center stretch'>
-      <li ng-repeat='p in pokemon' class='pokemon'>
-        <h1>{{ p.name }}</h1>
-        <img class='avatar' ng-src="{{p.avatarUrl}}" />
-      </li>
-    </ul>
-
-  <ul ng-if='politics.length' >
-    <li ng-repeat='trump in politics'>
-    {{ trump.Name }}
-   </li>
-  </ul>
-
-  </div>
-
+    <a href="#" class="myButton" ng-click="getNewQuote()">Say Something Else:</a>
+    <img id="ronny" class="animated fadeInRight" src="http://s3.us-east-2.amazonaws.com/ferrelli/ronny+boy.png" alt="Ron's face">
+  </div> -->
 </body>
+
+<!--   <script src="app.js"></script>
+ -->  <!-- <script src="service.js"></script> -->
 </html>

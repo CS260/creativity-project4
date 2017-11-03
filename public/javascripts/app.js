@@ -32,7 +32,8 @@ function mainCtrl ($scope, chuckFetcher, $http) {
     .then(function (data) {
       console.log("tryit");
       console.log(data);
-      $scope.chuckNorrisJokes = data.value.joke;
+      var tmpJSON= data.value.joke;
+      $scope.chuckNorrisJokes = JSON.stringify(tmpJSON);
     });
   }
 
